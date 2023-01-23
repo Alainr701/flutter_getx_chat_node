@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/register',
       getPages: [
         GetPage(name: '/login', page: () => const LoginPage()),
-        GetPage(name: '/register', page: () => RegisterPage()),
+        GetPage(name: '/register', page: () => const RegisterPage()),
       ],
       navigatorKey: Get.key,
     );
